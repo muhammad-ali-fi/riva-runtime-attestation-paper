@@ -3,7 +3,7 @@
 **Personal research prototype.**  
 > Whitepaper and demo evidence for runtime integrity verification and attestation (RIVA).
 
-- Paper: [`RIVA.md`](full.md)  
+- Paper: [`RIVA.md`](RIVA.md)  
 - Images: [`/images`](images/)  
 - Contact: ali.muhammad.ali@outlook.com • [LinkedIn](https://www.linkedin.com/in/muhammadali555/)
 
