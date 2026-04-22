@@ -78,7 +78,7 @@ Pure SBOM drift detection using sanitised package replicas. Signed JSON bundles 
 - mTLS between agent and verifier using the lab certificate bundle.
 - Rules for Windows workloads: package drift, registry persistence, exfil simulation, behaviour-drift stubs.
 - CLI tools for SBOM import, baseline management, and findings export.
-- ML-based pre-installation package scanner: RandomForest and XGBoost ensemble trained on real malicious npm datasets (OSSF, OSV, GHSA). Runs as a FastAPI service with Redis caching and Prometheus metrics.
+- Pre-installation package scanner with a three-stage pipeline: fast heuristics, behavioral signals, and a semantic stage using a locally-run fine-tuned LLM (Qwen3, LoRA-adapted on labeled npm malicious package datasets). Offline-first — no API calls, air-gap capable.
 - React web UI for findings review.
 - Two demo harnesses for the scenarios above.
 
